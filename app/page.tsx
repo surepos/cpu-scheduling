@@ -7,7 +7,7 @@ export default function Home() {
   const router = useRouter();
   return (
     <main className="flex min-h-screen items-center justify-center bg-neutral-950 p-4">
-      <div className="grid grid-cols-2 gap-5 w-full max-w-2xl">
+      <div className="grid grid-cols-2 gap-5 w-[70%] max-w-2xl">
         
         {/* First Come First Serve - Royal Purple */}
         <motion.button
